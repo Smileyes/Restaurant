@@ -30,9 +30,6 @@ import com.Smileyes.utils.WebUtils;
 public class FoodServlet extends HttpServlet {
 	static String dirPath = DirUtils.getBean("imagesDir");
 	public static FoodService_IN service = BeanFactory.getBean("foodService", FoodService_IN.class);
-	static {
-		System.out.println(dirPath);
-	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
