@@ -1,0 +1,1 @@
+该版本包括餐馆后台的所有内容，涉及的知识有：javaSE、HTML、JS、JavaWeb、MySQL、JDBC、MVC、tomcat虚拟目录、properties等。
